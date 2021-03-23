@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+}
+
+.container{
+    display: grid;
+    background-color: white;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-rows: 200px 400px 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "hokje1 hokje1 hokje1 hokje2 hokje2 hokje2"
+    "hokje3 hokje3 hokje4 hokje4 hokje4 hokje4"
+    "hokje5 hokje5 hokje5 hokje5 hokje5 hokje5";
+}
+
+#hokje1{
+    grid-area: hokje1;
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#hokje2{
+    grid-area: hokje2;
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#hokje3{
+    grid-area: hokje3;
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#hokje4{
+    grid-area: hokje4;
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#hokje5{
+    grid-area:hokje5;
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

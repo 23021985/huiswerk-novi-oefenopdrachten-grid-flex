@@ -1,0 +1,122 @@
+body{
+
+}
+
+.container{
+    width: 900px;
+    height: 1500px;
+    row-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". . . hokje1"
+    "hokje2 hokje2 hokje3 ."
+    "hokje2 hokje2 hokje4 hokje5"
+    ". . . ."
+    ". hokje6 hokje7 hokje7"
+    "hokje8 hokje9 hokje7 hokje7"
+    "hokje10 . . ." ;
+
+}
+
+#hokje1{
+    grid-area:hokje1;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje2{
+    grid-area:hokje2;
+    display: flex;
+    background-color: hsl(208, 48%, 47%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje3{
+    grid-area:hokje3;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#hokje4{
+    grid-area:hokje4;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje5{
+    grid-area:hokje5;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje6{
+    grid-area:hokje6;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje7{
+    grid-area:hokje7;
+    display: flex;
+    background-color: hsl(208, 48%, 47%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje8{
+    grid-area:hokje8;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hokje9{
+    grid-area:hokje9;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#hokje10{
+    grid-area:hokje10;
+    display: flex;
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
